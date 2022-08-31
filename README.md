@@ -1,3 +1,3 @@
 I am too lazy to write README
 
-![](./images/)
+![Screenshot](./images/QR-code.jpeg)
