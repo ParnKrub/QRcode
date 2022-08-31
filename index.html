@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,19 +14,27 @@
     <link href="/dist/output.css" rel="stylesheet" />
 
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hell world!</h1>
+  <body class="h-full bg-theme-bg">
+    <div class="h-full flex justify-center items-center">
+      <div class="w-[300px] rounded-2xl bg-white shadow-2xl">
+        <div class="p-4">
+          <img
+            src="./images/image-qr-code.png"
+            alt="QR code"
+            class="rounded-xl"
+          />
+        </div>
+        <div class="text-center p-4">
+          <div class="font-bold text-xl text-theme-blue">
+            Improve your front-end skills by building projects
+          </div>
+          <p class="py-4 font-normal text-[15px] text-theme-grey">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
